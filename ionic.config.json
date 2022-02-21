@@ -1,0 +1,7 @@
+{
+  "name": "vibebees-login/signup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
