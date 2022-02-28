@@ -1,0 +1,120 @@
+.container {
+  height: 100%;
+}
+
+.signin_form_comp {
+  min-height: 100%;
+  background: rgb(214, 233, 241);
+  padding-top: 60px;
+}
+
+.signin_logo {
+  position: absolute;
+  top: 0px;
+  margin: auto;
+  border: 3px solid rgb(214, 233, 241);
+  overflow: hidden;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.signin_form_div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin_img_div {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #818181;
+}
+
+.signin_img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.signin_form {
+  background-color: white;
+  border-radius: 5px;
+  margin: 50px 0px;
+  padding: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.signin_heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(43, 42, 42);
+}
+.signin_heading::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #90bce0;
+
+  margin: 5px auto;
+}
+
+.signin_label {
+  font-size: 20px;
+}
+
+.have_account {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #818181;
+  text-align: center;
+}
+
+.signin_input {
+  width: 250px;
+  color: #818181;
+}
+
+.signin_button {
+  float: right;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.signin_validation {
+  background-color: rgb(239 68 68);
+  position: relative;
+  z-index: 1;
+  color: wheat;
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 23px;
+  text-align: center;
+}
+.signin_validation_arrow {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid rgb(239 68 68);
+}
+
+@media only screen and (max-width: 600px) {
+  .signin_input {
+    width: 200px;
+  }
+
+  .signin_form {
+    padding: 20px;
+  }
+}
